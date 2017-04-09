@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react';
+import { AnimationBackgroundWebComponent } from './app/components/AnimationBackgroundWebComponent/AnimationBackgroundWebComponent'
 import {
   AppRegistry,
   StyleSheet,
@@ -16,6 +17,7 @@ export default class Sparkpoll extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <AnimationBackgroundWebComponent></AnimationBackgroundWebComponent>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
