@@ -8,6 +8,8 @@ import React, { Component } from 'react'
 import { AppRegistry, StyleSheet, Text, View } from 'react-native'
 import { AnimationBackgroundWebComponent } from './app/components/AnimationBackgroundWebComponent/AnimationBackgroundWebComponent'
 
+
+
 export default class Sparkpoll extends Component {
   render() {
     return (
